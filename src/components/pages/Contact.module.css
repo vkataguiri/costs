@@ -1,0 +1,40 @@
+.contact {
+	display: flex;
+	gap: 5em;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+.contactText h1 {
+	margin-bottom: 0.5em;
+	font-weight: bold;
+	font-size: 2em;
+}
+
+.contactText li {
+	list-style: none;
+}
+
+.contactText a {
+	display: flex;
+	align-items: center;
+	gap: 0.5em;
+	text-decoration: none;
+	color: #7a7a7a;
+	margin-bottom: 0.3em;
+	transition: 0.5s;
+}
+
+.contactText a:hover {
+	color: #000000;
+}
+
+.contactText a svg {
+	font-size: 1.5em;
+}
+
+.contact img {
+	width: 600px;
+	height: fit-content;
+}
